@@ -7,7 +7,7 @@ body {
 .container {
 	width: 960px;
 	margin: 20px auto;
-	box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 1px #333;
 }
 header {
 	height:300px;
@@ -26,7 +26,7 @@ nav {
 	border-bottom: 10px solid #2c3e50;
 }
 .sideBox {
-	box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 1px #333;
 	background-color: rgba(255,255,255,.9);
 	display: inline-block;
 	position: absolute;
@@ -86,7 +86,7 @@ section p {
 	padding: 10px 5px 10px 30px;
 }
 section h3 {
-	padding: 5px 10px;
+	padding: 5px 12px;
 	border-bottom: 1px solid #ccc;
 }
 table {
@@ -130,9 +130,8 @@ fieldset {
 }
 legend {
 	background: transparent;
-	-webkit-padding-start: 8px;
-	-webkit-padding-end: 8px;
-	margin-left: 10px;
+	padding: 20px 8px;
+	margin-left: 15px;
 	color: #bdc3c7;
 	font-size: 14px;
 }
@@ -165,7 +164,7 @@ input[type="submit"] {
 	margin: 30px 0;
 }
 .commentStream {
-	padding-bottom: 50px;
+	padding-bottom: 80px;
 }
 .commentStream p {
 	padding: 0;
