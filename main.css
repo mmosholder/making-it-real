@@ -6,7 +6,7 @@ body {
 }
 .container {
 	width: 960px;
-	margin: 0 auto;
+	margin: 20px auto;
 	box-shadow: 1px 1px 3px #333;
 }
 header {
@@ -14,7 +14,7 @@ header {
 	color: #fff;
 	background-color: rgba(46, 204, 113, .8);
 	position: relative;
-	z-index: 1;
+	border-bottom: 10px solid #27ae60;
 }
 header h1 {
 	position: absolute;
@@ -22,49 +22,162 @@ header h1 {
 	padding: 0 10px;
 }
 nav {
-	height: 60px;
+	height: 50px;
+	border-bottom: 10px solid #2c3e50;
 }
 .sideBox {
-	width: 200px;
 	box-shadow: 1px 1px 3px #333;
-	background-color: #fff;
+	background-color: rgba(255,255,255,.9);
 	display: inline-block;
+	position: absolute;
+	top: 390px;
+	right:260px;
+	padding: 10px 40px 10px 20px;
+	border-bottom: 5px solid rgba(0,0,0,.9);
+}
+.sideBox h4 {
+	margin: 5px 0;
+	font-size: 14px;
 }
 .sideBox ul {
 	padding-left: 0;
+	margin: 5px 0 5px 10px;
 }
 .sideBox li {
 	list-style:none;
 	font-size:12px;
 	color: #7f8c8d;
+	padding: 2px 0;
 }
 .mainNav {
 	background-color: rgba(52, 73, 94, .95);
 	text-align: right;
 	list-style: none;
 	padding-left: 0;
-	z-index: 0;
-	margin: -10px 0 0 0;
+	margin: 0;
 }
 .mainNav li {
 	text-transform: uppercase;
-	color: #fff;
-	padding: 20px;
 	display: inline-block;
 }
+.mainNav a:hover {
+	color: #ccc;
+	text-decoration: underline;
+}
+.mainNav li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 15px;
+}
 .content {
-	background-color: rgba(255,255,255,.95);
+	background-color: rgba(255,255,255,.90);
 	z-index: -1;
-	margin-top: -10px;
 	padding: 0 20px;
 }
 section {
 	padding: 10px;
 }
 section p {
-	padding: 10px;
+	padding: 10px 5px 10px 30px;
 }
 section h3 {
 	padding: 5px 10px;
 	border-bottom: 1px solid #ccc;
+}
+table {
+	border: 1px solid #bdc3c7;
+	text-align: left
+}
+table th,
+table td {
+	padding: 10px;
+}
+th {
+	background-color: #95a5a6;
+}
+table a {
+	padding: 5px 30px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #3498DB;
+}
+figure {
+	background-color: #BDC3C7;
+	padding: 20px 40px;
+	margin: 0px;
+}
+pre {
+	margin: 0;
+}
+.heroImage {
+	width: 100%;
+}
+.footerText {
+	color: #BDC3C7;
+	padding: 30px 0;
+	font-size: 14px;
+}
+fieldset {
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	padding: 0;
+}
+legend {
+	background: transparent;
+	-webkit-padding-start: 8px;
+	-webkit-padding-end: 8px;
+	margin-left: 10px;
+	color: #bdc3c7;
+	font-size: 14px;
+}
+label {
+	text-align: right;
+	display: inline-block;
+	width: 15%;
+	padding: 0 5px;
+	font-size: 14px;
+}
+section form p {
+	padding: 5px;
+	margin: 0;
+}
+form input[type="text"] {
+	width: 80%;
+}
+textarea {
+	width: 100%;
+	margin: 10px 0;
+	height: 200px;
+	padding: 0;
+}
+input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	color: #fff;
+	border: none;
+	background-color: #c0392b;
+}
+.commentStream {
+	padding-bottom: 50px;
+}
+.commentStream p {
+	padding: 0;
+}
+.commentStream img {
+	padding-right: 15px;
+	float: left;
+}
+time {
+	display: block;
+	font-style: italic;
+	color: #ccc;
+	font-size: 12px;
+	padding: 10px 0;
+}
+.nestedComments {
+	margin: 30px 40px;
+	padding-left: 10px;
+	border-left: 1px solid #ccc;
 }
