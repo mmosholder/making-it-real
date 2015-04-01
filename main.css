@@ -31,7 +31,8 @@ nav {
 	display: inline-block;
 	position: absolute;
 	top: 390px;
-	right:260px;
+	left: 50%;
+	margin-left: 26%;
 	padding: 10px 40px 10px 20px;
 	border-bottom: 5px solid rgba(0,0,0,.9);
 }
@@ -71,9 +72,12 @@ nav {
 	padding: 15px;
 }
 .content {
-	background-color: rgba(255,255,255,.90);
+	background-color: rgba(255,255,255,.85);
 	z-index: -1;
 	padding: 0 20px;
+}
+.redText {
+	color: red;
 }
 section {
 	padding: 10px;
