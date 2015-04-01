@@ -12,7 +12,7 @@ body {
 header {
 	height:300px;
 	color: #fff;
-	background-color: rgba(46, 204, 113, .8);
+	background-color: rgba(46, 204, 113, 1);
 	position: relative;
 	border-bottom: 10px solid #27ae60;
 }
@@ -162,6 +162,7 @@ input[type="submit"] {
 	color: #fff;
 	border: none;
 	background-color: #c0392b;
+	margin: 30px 0;
 }
 .commentStream {
 	padding-bottom: 50px;
