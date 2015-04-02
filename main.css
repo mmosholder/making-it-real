@@ -160,6 +160,7 @@ textarea {
 	margin: 10px 0;
 	height: 200px;
 	padding: 0;
+	resize: none;
 }
 input[type="submit"] {
 	width: 100%;
