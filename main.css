@@ -1,14 +1,25 @@
+/***** SITEWIDE COMPONENTS *****/
+
 * {
 	font-family: 'Open Sans', sans-serif;
 }
 body {
 	background-color: #7f8c8d;
 }
+section {
+	padding: 10px;
+}
 .container {
 	width: 960px;
 	margin: 20px auto;
 	box-shadow: 1px 1px 1px #333;
 }
+.redText {
+	color: red;
+}
+
+/***** HEADER COMPONENTS *****/
+
 header {
 	height:300px;
 	color: #fff;
@@ -21,6 +32,9 @@ header h1 {
 	bottom: 0;
 	padding: 0 10px;
 }
+
+/***** NAV COMPONENTS *****/
+
 nav {
 	height: 50px;
 	border-bottom: 10px solid #2c3e50;
@@ -46,16 +60,13 @@ nav {
 	display: block;
 	padding: 15px;
 }
+
+/***** CONTENT COMPONENTS *****/
+
 .content {
 	background-color: rgba(255,255,255,.85);
 	z-index: -1;
 	padding: 0 20px;
-}
-.redText {
-	color: red;
-}
-section {
-	padding: 10px;
 }
 section p {
 	padding: 10px 5px 10px 30px;
@@ -64,6 +75,25 @@ section h3 {
 	padding: 5px 12px;
 	border-bottom: 1px solid #ccc;
 }
+figure {
+	background-color: #BDC3C7;
+	padding: 20px 40px;
+	margin: 0px;
+}
+pre {
+	margin: 0;
+}
+.heroImage {
+	width: 100%;
+}
+.postByText {
+	color: #BDC3C7;
+	padding: 30px 0;
+	font-size: .85em;
+}
+
+/***** TABLE COMPONENTS *****/
+
 table {
 	border: 1px solid #bdc3c7;
 	text-align: left
@@ -84,47 +114,34 @@ table a {
 table a:hover {
 	background-color: #2978ad;
 }
-figure {
-	background-color: #BDC3C7;
-	padding: 20px 40px;
-	margin: 0px;
-}
-pre {
-	margin: 0;
-}
-.heroImage {
-	width: 100%;
-}
-.footerText {
-	color: #BDC3C7;
-	padding: 30px 0;
-	font-size: 14px;
-}
-fieldset {
+
+/***** FORM COMPONENTS *****/
+
+.commentSubmitForm fieldset {
 	border-bottom: none;
 	border-left: none;
 	border-right: none;
 	padding: 0;
 }
-legend {
+.commentSubmitForm legend {
 	background: transparent;
 	padding: 20px 8px;
 	margin-left: 15px;
-	color: #bdc3c7;
-	font-size: 14px;
+	color: #999;
+	font-size: .85em;
 }
-label {
+.commentSubmitForm label {
 	text-align: right;
 	display: inline-block;
 	width: 15%;
 	padding: 0 5px;
-	font-size: 14px;
+	font-size: .85em;
 }
-section form p {
+.commentSubmitForm p {
 	padding: 5px;
 	margin: 0;
 }
-form input[type="text"] {
+.commentSubmitForm input[type="text"] {
 	width: 80%;
 }
 textarea {
@@ -134,7 +151,7 @@ textarea {
 	padding: 0;
 	resize: none;
 }
-input[type="submit"] {
+.commentSubmitForm input[type="submit"] {
 	width: 100%;
 	padding: 10px;
 	color: #fff;
@@ -142,9 +159,12 @@ input[type="submit"] {
 	background-color: #c0392b;
 	margin: 30px 0;
 }
-input[type="submit"]:hover {
+.commentSubmitForm input[type="submit"]:hover {
 	background-color: #a02f24;
 }
+
+/***** COMMENT STREAM COMPONENTS *****/
+
 .commentStream {
 	padding-bottom: 80px;
 }
@@ -158,8 +178,8 @@ input[type="submit"]:hover {
 time {
 	display: block;
 	font-style: italic;
-	color: #ccc;
-	font-size: 12px;
+	color: #999;
+	font-size: .8em;
 	padding: 10px 0;
 }
 .nestedComments {
@@ -167,6 +187,9 @@ time {
 	padding-left: 10px;
 	border-left: 1px solid #ccc;
 }
+
+/***** SIDEBOX COMPONENTS *****/
+
 .sideBox {
 	box-shadow: 1px 1px 1px #333;
 	background-color: rgba(255,255,255,.9);
@@ -180,7 +203,6 @@ time {
 }
 .sideBox h4 {
 	margin: 5px 0;
-	font-size: 14px;
 }
 .sideBox ul {
 	padding-left: 0;
@@ -188,7 +210,7 @@ time {
 }
 .sideBox li {
 	list-style:none;
-	font-size:12px;
+	font-size:.8em;
 	color: #7f8c8d;
 	padding: 2px 0;
 }
